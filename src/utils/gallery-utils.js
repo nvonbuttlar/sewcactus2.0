@@ -16,11 +16,6 @@ import spools from '../images/gallery/spools.jpg';
 
 export const GALLERY_IMAGES = [
   {
-    src: gloop,
-    width: 4,
-    height: 3
-  },
-  {
     src: alterations,
     width: 1,
     height: 1
@@ -84,6 +79,11 @@ export const GALLERY_IMAGES = [
     src: suitjacket,
     width: 3,
     height: 4
+  },
+  {
+    src: gloop,
+    width: 4,
+    height: 3
   },
   {
     src: spools,

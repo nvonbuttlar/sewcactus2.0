@@ -1,7 +1,11 @@
 .gallery {
-  height: auto;
-  overflow-y: scroll;
-  margin: 2px 2px 0px;
+  padding: 20px 0;
+  background: #030812;
+}
+
+.gallery-image {
+  max-height: 750px;
+  width: 100%;
 }
 
 /* media query for laptop */
