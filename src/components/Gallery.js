@@ -29,6 +29,7 @@ class Gallery extends Component {
             slidesPerView: 3
           }
         }}
+        loop
         >
         {GALLERY_IMAGES.map(image => 
           <SwiperSlide>
