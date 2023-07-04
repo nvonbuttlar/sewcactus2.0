@@ -1,0 +1,87 @@
+.footer {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  max-width: 100%;
+  background-color: hsla(0, 0%, 0%, 0.75);
+  display: flex;
+  height: auto; 
+  padding: 20px;
+}
+
+.social {
+  align-self: center;
+}
+
+.insta {
+  height: 45px;
+  width: 45px;
+  margin: 7px;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.insta:hover {
+  opacity: 1;
+  background: linear-gradient(#4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
+  border: none;
+}
+
+.social-link {
+  text-decoration: none;
+  color: white;
+}
+
+.fb {
+  height: 46px;
+  width: 46px;
+  margin: 7px;
+  opacity: 0.8;
+  transition: background-color 0.5s ease;
+}
+
+.fb:hover {
+  opacity: 1;
+  color: #3b5998;
+}
+
+.footer-logo {
+  flex-grow: 1;
+  align-self: center;
+  text-align: center;
+}
+
+.contact {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-right: 10px;
+  font-size: 12px;
+  contain: content;
+}
+
+.year {
+  margin: 0;
+}
+
+h4 {
+  margin: 5px 0px;
+}
+
+ul {
+  margin-top: 1px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  margin: 2px 0px;
+}
+
+.credit {
+  font-size: 10px;
+  margin-left: 5px;
+}
+

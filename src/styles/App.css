@@ -1,0 +1,30 @@
+* {
+  /* border: 1px solid red; */
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Raleway");
+
+/*-------------------------------------------------------------------------*/
+html { scroll-behavior:smooth }
+
+
+.page-content {
+  position: relative;
+  height: 100vh;
+  font-family: "Raleway", cursive;
+  background: url("../images/studio.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+

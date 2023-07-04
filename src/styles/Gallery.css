@@ -1,0 +1,7 @@
+.gallery {
+  height: auto;
+  overflow-y: scroll;
+  margin: 2px 2px 0px;
+}
+
+/* media query for laptop */

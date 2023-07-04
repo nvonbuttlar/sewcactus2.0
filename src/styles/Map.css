@@ -1,0 +1,14 @@
+.map-container {
+  width: 100%;
+  height: 100%;
+  height: 667px;
+}
+
+.map-icon {
+  color: #e84900;
+}
+
+/* .map-icon:hover {
+  color: #cb2238;
+  cursor: pointer;
+} */

@@ -1,0 +1,15 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  Elements to animate */
+h2 {
+  color: white;
+  letter-spacing: 0.15em;
+  font-size: 45px;
+  z-index: 1;
+}
