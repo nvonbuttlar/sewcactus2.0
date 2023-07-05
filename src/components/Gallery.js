@@ -14,7 +14,7 @@ class Gallery extends Component {
   
   render() {
     return (
-      <div class="gallery">
+      <div id="gallery" className="gallery">
         <Swiper
         spaceBetween={0}
         slidesPerView={1}

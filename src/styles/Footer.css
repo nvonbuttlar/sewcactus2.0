@@ -4,8 +4,9 @@
   max-width: 100%;
   background-color: hsla(0, 0%, 0%, 0.75);
   display: flex;
-  height: auto; 
+  height: auto;
   padding: 20px;
+  position: relative;
 }
 
 .social {
@@ -15,7 +16,7 @@
 .insta {
   height: 45px;
   width: 45px;
-  margin: 7px;
+
   opacity: 0.8;
   border-radius: 4px;
 }
@@ -29,12 +30,13 @@
 .social-link {
   text-decoration: none;
   color: white;
+  padding-left: 0 !important;
 }
 
 .fb {
   height: 46px;
   width: 46px;
-  margin: 7px;
+
   opacity: 0.8;
   transition: background-color 0.5s ease;
 }
@@ -45,9 +47,18 @@
 }
 
 .footer-logo {
+  position: absolute;
+  width: 60px;
   flex-grow: 1;
   align-self: center;
   text-align: center;
+  left: calc(50% - 30px);
+}
+
+@media (max-width: 750px) {
+  .footer-logo {
+    display: none;
+  }
 }
 
 .contact {
@@ -84,4 +95,3 @@ li {
   font-size: 10px;
   margin-left: 5px;
 }
-
