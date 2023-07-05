@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import "../styles/Gallery.css";
+import '../styles/Gallery.css';
 
-import { GALLERY_IMAGES } from "../utils/gallery-utils";
+import { GALLERY_IMAGES } from '../utils/gallery-utils';
 
 class Gallery extends Component {
   constructor() {
@@ -23,7 +23,6 @@ class Gallery extends Component {
         modules={[Navigation]}
         navigation
         breakpoints={{
-          // when window width is >= 750px
           750: {
             spaceBetween: 50,
             slidesPerView: 3
